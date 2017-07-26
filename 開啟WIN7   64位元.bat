@@ -1,14 +1,14 @@
 @echo off
-@title WinterDEV ªA°Èºİ
+@title WinterDEV æœå‹™ç«¯
 color f
-set /p title=Åwªï§A¨Ï¥Î WinterDEV ªA°Èºİ, ½Ğ«ö¤UEnter¶i¦æ½Æ»sJAR°Ê§@!~
+set /p title=æ­¡è¿ä½ ä½¿ç”¨ WinterDEV æœå‹™ç«¯, è«‹æŒ‰ä¸‹Enteré€²è¡Œè¤‡è£½JARå‹•ä½œ!~
 echo.
-copy /y E:\Downloads\GMS\v83MS\v83Server\WinterDEV\dist\*.jar* "%ProgramFiles%\Java\jre7\lib\ext"
-copy /y E:\Downloads\GMS\v83MS\v83Server\WinterDEV\dist\*.jar* "%ProgramFiles%\Java\jdk1.7.0_80\jre\lib\ext"
-copy /y E:\Downloads\GMS\v83MS\v83Server\WinterDEV\dist\*.jar* "%ProgramFiles%\Java\jre7\lib\security"
-copy /y E:\Downloads\GMS\v83MS\v83Server\WinterDEV\dist\*.jar* "%ProgramFiles%\Java\jdk1.7.0_80\jre\lib\security"
+copy /y dist\*.jar* "%ProgramFiles%\Java\jre7\lib\ext"
+copy /y dist\*.jar* "%ProgramFiles%\Java\jdk1.7.0_80\jre\lib\ext"
+copy /y dist\*.jar* "%ProgramFiles%\Java\jre7\lib\security"
+copy /y dist\*.jar* "%ProgramFiles%\Java\jdk1.7.0_80\jre\lib\security"
 echo.
-set /p title=½Æ»s§¹²¦, ½Ğ«ö¤UEnter¶i¦æ¶}±Ò¦øªA¾¹!~
+set /p title=è¤‡è£½å®Œç•¢, è«‹æŒ‰ä¸‹Enteré€²è¡Œé–‹å•Ÿä¼ºæœå™¨!~
 cls
 color b
 set CLASSPATH=.;dist\*
